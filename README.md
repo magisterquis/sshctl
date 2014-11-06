@@ -22,13 +22,13 @@ that.
 
 Host file format:
 =================
-```user@host[:port][\tgroup]
+```user@host[:port][ group...]
 
 foo@bar.com
 tridge@baaz:2222
 instance001@localhost	localgroup
-instance002@localhost	localgroup
-instance001@remote:99	remgroup
+instance002@localhost	localgroup	private
+instance001@remote:99	remgroup	private
 instance004@remote	remgroup```
 
 Groups:
